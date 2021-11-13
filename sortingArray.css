@@ -1,0 +1,32 @@
+body {
+    background-color: darkgray;
+    font-family: fantasy;
+    font-size: 24px;
+}
+
+.wrap {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.root1,
+.root2,
+.root3,
+.innerBox {
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+#btn {
+    font-size: 24px;
+    background-color: darkmagenta;
+    border: 2px dashed black;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-family: fantasy;
+}
